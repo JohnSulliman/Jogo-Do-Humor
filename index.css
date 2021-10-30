@@ -34,6 +34,23 @@ header {
     box-shadow: 5px 5px 10px;
 }
 
+.pokemon-body1 {
+    display: flex;
+}
+
+.pokemon-body1-choose {
+    text-align: center;
+    margin: auto 1rem;
+}
+
+.pokemon-body1-choose img {
+    width: 100%;
+}
+
+.choose:hover {
+    cursor: pointer;
+}
+
 .pokemon-body2 {
     display: flex;
     flex-direction: row;
@@ -73,4 +90,8 @@ footer {
     align-items: center;
     justify-content: flex-end;
     padding-top: 1.5rem;
+}
+
+.select{
+    border: 3px solid #FF4040;
 }

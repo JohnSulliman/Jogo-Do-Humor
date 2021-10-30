@@ -7,16 +7,42 @@
     <link rel="stylesheet" href="./index.css">
     <title>Jogo do Humor</title>
 </head>
-<body class="pokemon">
+<body class="pokemon" onload="iniciar()">
     <header>
         <img src="./img/pokemon.webp" class="pokemon-title" />
     </header>
     
     <div class="pokemon-body">
         <div class="pokemon-body-title">
-            <h1>Ajude o pokémon!</h1>
+            <h1>Escolha seu pokémon!</h1>
 
-            <p>Bulbasaur não consegue evoluir. Pressione o botão e ajude ele!</p>
+            <p>Qual pokémon você quer que te acompanhe em sua jornarda?</p>
+        </div>
+
+        <div class="pokemon-body1" name="pokemons">
+            <div id="Bulbasaur" class="pokemon-body1-choose" class="select">
+                <img src="./img/001.png" />
+                <p>Bulbasaur</p>
+                <p>Tipo: Grama/Venenoso</p>
+            </div>
+
+            <div id="Charmander" class="pokemon-body1-choose" >
+                <img src="./img/004.png" />
+                <p>Charmander</p>
+                <p>Tipo: Fogo</p>
+            </div>
+
+            <div id="Squirtle" class="pokemon-body1-choose" >
+                <img src="./img/007.png" />
+                <p>Squirtle</p>
+                <p>Tipo: Água</p>
+            </div>
+        </div>
+
+        <div class="pokemon-body-title">
+            <h1>Evolua seu pokémon!</h1>
+
+            <p>Ajude seu pokémon a evoluir e fique mais forte!</p>
         </div>
 
         <div class="pokemon-body2">
@@ -35,7 +61,7 @@
                 <img src="./img/001.png" id="image" />
             </div>
         </div>
-        <p id="info">Seu pokémon está na evolução inicial.</p>
+        <p id="evolution">Seu pokémon está na evolução inicial.</p>
     </div>
 
     <footer>
